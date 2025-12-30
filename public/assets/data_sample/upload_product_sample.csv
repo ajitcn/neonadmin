@@ -1,0 +1,2 @@
+﻿Product Title,Parent SKU (in case of child),Product SKU,SKU Type,Product Category,Product Sub Category,Product Style,Product Quality,Size,Color,Product Cost,Product MRP,Selling Price,Product Unit,Tax Rate,HSN Code,Manufacturer,Reorder Level,Reorder Quantity,Weight,Product Dimensions ,Product Image Url,Product Has IMEI / Serial Number
+Product 1,,parentSku-variant,base/variant,category 1,,,Na,s1,c1,100,300,190,Piece/KG/Meter/Liter,0/5/12/18/28,123456,,0,0,0,0,https://chatgpt.com/,Yes/No

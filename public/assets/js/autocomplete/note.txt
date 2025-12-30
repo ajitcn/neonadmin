@@ -1,0 +1,7 @@
+
+####### Add in footer ######
+
+
+<script src="autocomplete/jquery.js"></script>
+<script src="autocomplete/jquery-ui.js"></script>
+<script> $( "#search_party" ).autocomplete({ source: ''});</script>

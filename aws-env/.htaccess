@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Stop rewriting index.php itself
+    RewriteRule ^index\.php$ - [L]
+
+    # Redirect all other requests to index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+# Block direct access to sensitive folders
+<DirectoryMatch "^(app|writable|vendor)">
+    Require all denied
+</DirectoryMatch>
