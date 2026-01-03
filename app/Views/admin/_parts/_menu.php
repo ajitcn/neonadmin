@@ -5,7 +5,7 @@
     </div>
 
     <div class="sidebar-header">
-      <img class="navbar-brand-img" src="<?= base_url('public/assets/img/temp_logo.jpg')?>">
+      <img class="navbar-brand-img" src="<?= base_url('assets/img/temp_logo.jpg')?>">
       <span class="sub-logo">OTT</span>
     </div>
 
@@ -82,9 +82,9 @@
 </div>
 
 <?= $this->section('js')?>
-<script src="<?php echo base_url('public/assets/js/_routes.js?v='.date('dmyHi'))?>"></script>
-<script src="<?php echo base_url('public/assets/js/admin.js?v='.date('dmyHi'))?>"></script>
-<script src="<?php echo base_url('public/assets/js/_media_content.js?v='.date('dmyHi'))?>"></script>
-<script src="<?php echo base_url('public/assets/js/_payment_gateway.js?v='.date('dmyHi'))?>"></script>
-<script src="<?php echo base_url('public/assets/js/_home_page_setup.js?v='.date('dmyHi'))?>"></script>
+<script src="<?php echo base_url('assets/js/_routes.js?v='.date('dmyHi'))?>"></script>
+<script src="<?php echo base_url('assets/js/admin.js?v='.date('dmyHi'))?>"></script>
+<script src="<?php echo base_url('assets/js/_media_content.js?v='.date('dmyHi'))?>"></script>
+<script src="<?php echo base_url('assets/js/_payment_gateway.js?v='.date('dmyHi'))?>"></script>
+<script src="<?php echo base_url('assets/js/_home_page_setup.js?v='.date('dmyHi'))?>"></script>
 <?= $this->endSection()?>

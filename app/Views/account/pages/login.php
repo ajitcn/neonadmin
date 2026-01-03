@@ -205,7 +205,7 @@
         </div>
         <div class="form-container">
             <div class="logo-container">
-                <img src="<?= base_url('public/assets/img/temp_logo.jpg')?>">
+                <img src="<?= base_url('assets/img/temp_logo.jpg')?>">
             </div>
             <h4 class="text-center mb-3">Login</h4>
         <?php echo form_open('account/verify-login', 'autocomplete="off"')?>

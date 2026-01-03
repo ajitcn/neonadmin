@@ -19,3 +19,4 @@ require FCPATH . '../app/Config/Paths.php';
 
 $paths = new Config\Paths();
 exit(CodeIgniter\Boot::bootWeb($paths));
+ 

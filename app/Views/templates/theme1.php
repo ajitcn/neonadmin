@@ -10,8 +10,8 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"/>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/css/bootstrap-datepicker.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="<?= base_url('public/assets/css/style.css?v='.date('dmy'))?>">
-      <link rel="stylesheet" href="<?= base_url('public/assets/css/jquery-ui.css')?>">
+      <link rel="stylesheet" href="<?= base_url('assets/css/style.css?v='.date('dmy'))?>">
+      <link rel="stylesheet" href="<?= base_url('assets/css/jquery-ui.css')?>">
       <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/dataTables.bootstrap4.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css" />
@@ -267,7 +267,7 @@
          <div class="mobile-menu-header">
             <div class="menu-toggle-btn" data-toggle="false">
                <i class="fa-solid fa-bars"></i>
-               <img class="navbar-brand-img" src="<?= base_url('public/assets/img/temp_logo.jpg')?>">
+               <img class="navbar-brand-img" src="<?= base_url('assets/img/temp_logo.jpg')?>">
             </div>
             <div class="top-menu-btn" data-toggle="false"><i class="fa-solid fa-chevron-down"></i></div>
          </div>
@@ -417,9 +417,9 @@
                   }
                }
          </script>
-         <script src="<?php echo base_url('public/assets/js/common.js?v='.date('dmyHi'))?>"></script>
-         <script src="<?php echo base_url('public/assets/js/autocomplete/jquery-ui.js')?>"></script>
-         <script src="<?php echo base_url('public/assets/js/autocomplete/jquery-ui.js')?>"></script>
+         <script src="<?php echo base_url('assets/js/common.js?v='.date('dmyHi'))?>"></script>
+         <script src="<?php echo base_url('assets/js/autocomplete/jquery-ui.js')?>"></script>
+         <script src="<?php echo base_url('assets/js/autocomplete/jquery-ui.js')?>"></script>
          <script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/js/bootstrap-datepicker.min.js"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/dataTables.bootstrap4.min.js"></script>
