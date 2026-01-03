@@ -15,7 +15,10 @@ class Home extends BaseController
     
     public function index()
     {
-        
+        if (session()->has('user_id')) {
+            return redirect()->to('admin/dashboard');
+        }
+
         return  redirect()->to('account/user-login');
 
     }
