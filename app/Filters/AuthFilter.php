@@ -30,7 +30,7 @@ class AuthFilter implements FilterInterface
         $session = Services::session();
         if (!$session->get('loggedIn')) {
             // User is not logged in, redirect to the login page
-            return redirect()->to('/account/user-login');
+           // return redirect()->to('/account/user-login');
         }
 
     }
