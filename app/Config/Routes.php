@@ -41,6 +41,6 @@ $routes->get('debug-session', function () {
     print_r(session()->get());
 });
 
-$routes->get('/', 'Home::index');
+//$routes->get('/', 'Home::index');
 
 
