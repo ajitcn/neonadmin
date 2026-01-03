@@ -15,6 +15,7 @@ class Home extends BaseController
     
     public function index()
     {
+        print_r($a);
         return  redirect()->to('account/user-login');
 
     }
