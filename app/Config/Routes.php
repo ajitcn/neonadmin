@@ -37,8 +37,8 @@ $routes->get('dashboard', 'admin\Dashboard::index');
 
 
 $routes->get('debug-session', function () {
-    echo '<pre>';
-    print_r(session()->get());
+    return 'ok';
+     
 });
 
 //$routes->get('/', 'Home::index');
