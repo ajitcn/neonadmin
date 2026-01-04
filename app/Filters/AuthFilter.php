@@ -33,6 +33,8 @@ class AuthFilter implements FilterInterface
            // return redirect()->to('/account/user-login');
         }
 
+        return true;
+
     }
 
     /**

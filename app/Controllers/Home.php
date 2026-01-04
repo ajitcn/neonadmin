@@ -19,7 +19,7 @@ class Home extends BaseController
             return redirect()->to('admin/dashboard');
         }
 
-        return  redirect()->to('account/user-login');
+        //return  redirect()->to('account/user-login');
 
     }
 

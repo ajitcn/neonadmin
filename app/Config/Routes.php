@@ -37,7 +37,7 @@ $routes->get('dashboard', 'admin\Dashboard::index');
 
 
 $routes->get('debug-session', function () {
-    return 'ok';
+    echo 'ok';
      
 });
 
