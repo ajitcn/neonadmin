@@ -6,6 +6,19 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 
+$routes->get('/', 'Home::index');
+
+$routes->get('debug-session', function () {
+    echo 'ok';
+     
+});
+//auth
+$routes->get('account/user-login', 'account\Auth::index');
+$routes->post('account/verify-login', 'account\Auth::verifyLogin');
+$routes->post('account/update-user-password', 'account\Auth::updateUserPassword');
+
+
+
 
 /*include individual routes*/
 
@@ -36,11 +49,6 @@ $routes->get('dashboard', 'admin\Dashboard::index');
 
 
 
-$routes->get('debug-session', function () {
-    echo 'ok';
-     
-});
 
-$routes->get('/', 'Home::index');
 
 
