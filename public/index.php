@@ -1,4 +1,7 @@
 <?php
+<?php
+echo 'PHP IS RUNNING';
+exit;
 
 $minPhpVersion = '8.1';
 if (version_compare(PHP_VERSION, $minPhpVersion, '<')) {
